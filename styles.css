@@ -244,7 +244,7 @@ a.pure-button-primary {
 
 /* This is the class used for the footer */
 .footer {
-    background: #111;
+    background: #2d3e50;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -329,4 +329,14 @@ a {
 .main-font {
     color:var(--text);
 }
+a.main-font-white {
+    color:white;
+}
 .search { width: 100%; padding: 10px 12px; border-radius: 12px; border: 1px solid #1b2442; background: #ffffff; color: #1b2442; }
+ul{
+  padding-left:0;
+}
+
+li{
+  list-style:none;
+}
