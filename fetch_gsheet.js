@@ -162,3 +162,7 @@
       if (tq) els.tq.value = tq;
       if (id) load();
     })();
+
+  document.addEventListener('DOMContentLoaded', () => {
+    load();
+  });
